@@ -1,0 +1,19 @@
+/* src/styles/RecipeDetails.css */
+.recipe-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .recipe-card h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .recipe-card p {
+    font-size: 16px;
+    color: #777;
+  }
+  

@@ -1,0 +1,24 @@
+/* Add to your styles */
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .loading-spinner {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .error-message {
+    color: #d32f2f;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .no-results {
+    text-align: center;
+    grid-column: 1 / -1;
+    padding: 40px;
+  }
